@@ -4,7 +4,7 @@
 use "C:\Users\IIMA\Dropbox (IFPRI)\CACP DATA (1)\Data\State and national avg Paddy_fullyear.dta", clear
 
 **Extracting average land rent for the year 2015 at 2005 prices
-tab landrent_ind05 if year==2015
+tab landrent_ind05 if year==2020
 
 **Import values of rainfed land rent, irrigated land rents from calculation in excel sheet 
 **production_irri is production in tonnes
