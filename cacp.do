@@ -32,7 +32,7 @@ gen cc_rain = totallabourrs_india_nom +  totalmachiners_india_nom +  totalanimal
 				seedvaluers_india_nom + totalfertiliserrs_india_nom + manurers_india_nom + insecticidesrs_india_nom + ///
 				landrent_rain if (irrigationrs == 0 | irrigationrs == .)
 				
-gen cc_rain_tonne = (cc_rain/mainproductqtls_rain_india)*10
+gen cc_rain_tonne = (cc_rain/mainproductqtls_rain_india)*100
 	
 *Cost of irrigated production of paddy in 2005 prices in the year 2005 
 tab cc_irri if year==2005 & crop2==16
